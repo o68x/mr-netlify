@@ -1,0 +1,15 @@
+---
+eleventyComputed:
+  title: "{{ galerie.gallery }}"
+  files: "{{ galerie.files }}"
+---
+
+<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+  <h1>
+    {{title}}
+  </h1>
+
+  <p>
+    {{files}}
+  </p>
+</div>

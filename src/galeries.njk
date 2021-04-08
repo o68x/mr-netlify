@@ -1,0 +1,12 @@
+---
+title: galerie pages
+pagination:
+  data: galleries
+  size: 1
+permalink: "/galeries/{{ pagination.items[0].gallery | slug }}/index.html"
+---
+
+{%- for item in pagination.items %}
+  <h1>{{ item.gallery }}</h1>
+  <p>{{ item.files }}</p>
+{% endfor -%}
