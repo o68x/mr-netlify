@@ -13,3 +13,11 @@
     {% endif %}
 
 </div>
+<div>
+
+    {% for gal in galleries %}
+        <h3>{{ gal.gallery }}</h3>
+        <p>{{ gal.files }}</p>
+        <hr/>
+    {% endfor %}
+</div>

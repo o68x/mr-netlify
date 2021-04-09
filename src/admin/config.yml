@@ -7,6 +7,13 @@ backend:
   # repo: surjithctly/neat-starter
 media_folder: "src/static/img"
 public_folder: "/static/img"
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: oc7x
+    api_key: 257969363549336
+display_url: http://localhost:8080
+logo_url: http://localhost:8080/static/img/icon.svg
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
